@@ -236,8 +236,8 @@ rs = listSRAfile( c("SRX000122"), sra_con, fileType = 'sra' )
 The above function does not check file availability, size and date of the sra data files on the server, but the function getSRAinfo does this, which is good to know if you are  preparing to download them:
 
 <<>>=
-rs = getSRAinfo ( c("SRX000122"), sra_con, sraType = "sra" )
-rs[1:3,]
+# rs = getSRAinfo ( c("SRX000122"), sra_con, sraType = "sra" )
+# rs[1:3,]
 @
 
 Next you might want to download sra data files from the ftp site.  The getSRAfile function will download all available sra data files associated with "SRR000648" and "SRR000657" from the NCBI SRA ftp site to the current directory:
