@@ -1,7 +1,7 @@
 Package: SRAdb
 Type: Package
 Title: A compilation of metadata from NCBI SRA and tools
-Version: 1.61.0
+Version: 1.62.0
 Date: 2020-10-21
 Depends: RSQLite, graph, RCurl
 Imports: GEOquery
